@@ -1,0 +1,258 @@
+/* For Extra small devices */
+@media (max-width: 600px) {
+
+    /* Header */
+    header {
+        font-size: 2rem;
+    }
+
+    /* Welcome Screen */
+    #welcome div:first-child span {
+        font-size: 2rem;
+    }
+
+    #welcome div:first-child img {
+        width: 2rem;
+    }
+
+    /* Content Container */
+    #content-container div[id^="q"] {
+        width: auto;
+    }
+
+    #content-container div[id^="q"] > div:first-child{
+        font-size: 1.5rem;
+    }
+
+    #content-container div[id="q1"] > div:last-child, 
+    #content-container div[id="q2"] > div:last-child {
+        width: 18rem;
+    }
+
+    #content-container div[id="q1"] > div:last-child > div, 
+    #content-container div[id="q2"] > div:last-child > div {
+        font-size: 1rem;
+    }
+
+    #content-container div[id="q4"] > textarea {
+        width: 16rem;
+    }
+
+    #content-container div[id="thank-you"] div:first-child img {
+        height: 6rem;
+        border-radius: 2.5rem;
+    }
+
+    #content-container div[id="thank-you"] div:nth-child(2) {
+        font-size: 2rem;
+    }
+    
+    #content-container div[id="thank-you"] div:last-child {
+        font-size: 1rem;
+    }
+
+}
+
+/* For portrait tablets and large phones */
+@media (min-width: 600px) {
+    /* Header */
+    header {
+        font-size: 2rem;
+    }
+
+    /* Welcome Screen */
+    #welcome div:first-child span {
+        font-size: 2rem;
+    }
+
+    #welcome div:first-child img {
+        width: 2rem;
+    }
+
+    /* Content Container */
+    #content-container div[id^="q"] {
+        width: auto;
+    }
+
+    #content-container div[id^="q"] > div:first-child{
+        font-size: 1.5rem;
+    }
+
+    #content-container div[id="q1"] > div:last-child > div, 
+    #content-container div[id="q2"] > div:last-child > div {
+        font-size: 0.9rem;
+    }
+
+    #content-container div[id="q4"] > textarea {
+        width: 16rem;
+    }
+
+    #content-container div[id="thank-you"] div:first-child img {
+        height: 6rem;
+        border-radius: 2.5rem;
+    }
+
+    #content-container div[id="thank-you"] div:nth-child(2) {
+        font-size: 2rem;
+    }
+    
+    #content-container div[id="thank-you"] div:last-child {
+        font-size: 1rem;
+    }
+}
+
+/* For landscape tablets */
+@media (min-width: 768px) {
+    /* Header */
+    header {
+        font-size: 3rem;
+    }
+
+    /* Welcome Screen */
+    #welcome div:first-child span {
+        font-size: 3rem;
+    }
+
+    #welcome div:first-child img {
+        width: 3rem;
+    }
+
+    /* Content Container */
+    #content-container div[id^="q"] {
+        width: 50vw;
+    }
+
+    #content-container div[id^="q"] > div:first-child{
+        font-size: 2.5rem;
+    }
+
+    #content-container div[id="q1"] > div:last-child > div, 
+    #content-container div[id="q2"] > div:last-child > div {
+        font-size: 1rem;
+    }
+
+    #content-container div[id="q4"] > textarea {
+        width: 50vw;
+        height: 8rem;
+    }
+
+    #content-container div[id="thank-you"] div:first-child img {
+        height: 10rem;
+        border-radius: 4rem;
+    }
+
+    
+    #content-container div[id="thank-you"] div:nth-child(2) {
+        font-size: 3rem;
+    }
+    
+    #content-container div[id="thank-you"] div:last-child {
+        font-size: 1.5rem;
+    }
+}
+
+/* For laptops/desktops */
+@media (min-width: 992px) {
+    /* Header */
+    header {
+        font-size: 3rem;
+    }
+
+    /* Welcome Screen */
+    #welcome div:first-child span {
+        font-size: 3rem;
+    }
+
+    #welcome div:first-child img {
+        width: 3rem;
+    }
+
+    /* Content Container */
+    #content-container div[id^="q"]  {
+        width: 50vw;
+    }
+
+    #content-container div[id^="q"] > div:first-child{
+        font-size: 2.5rem;
+    }
+
+    #content-container div[id="q1"] > div:last-child > div, 
+    #content-container div[id="q2"] > div:last-child > div {
+        font-size: 1rem;
+    }
+
+    #content-container div[id="q4"] > textarea {
+        width: 50vw;
+        height: 8rem;
+    }
+
+    #content-container div[id="thank-you"] div:first-child img {
+        height: 10rem;
+        border-radius: 4rem;
+    }
+
+    #content-container div[id="thank-you"] div:nth-child(2) {
+        font-size: 3rem;
+    }
+    
+    #content-container div[id="thank-you"] div:last-child {
+        font-size: 1.5rem;
+    }
+}
+
+/* For large laptops/desktops */
+@media (min-width: 1400px) {
+    /* Header */
+    header {
+        font-size: 4rem;
+    }
+
+    /* Welcome Screen */
+    #welcome div:first-child span {
+        font-size: 4rem;
+    }
+
+    #welcome div:first-child img {
+        width: 4rem;
+    }
+
+    #welcome > div:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    #welcome div:last-child button, 
+    #footer button:last-child,
+    #footer button:first-child {
+        border-radius: 0.8rem;
+        font-size: 1.5rem;
+    }
+
+    /* Content Container */
+    #content-container div[id^="q"] {
+        width: 50vw;
+    }
+
+    #content-container div[id^="q"] > div:first-child{
+        font-size: 3.5rem;
+    }
+
+    #content-container div[id="q1"] > div:last-child, 
+    #content-container div[id="q2"] > div:last-child {
+        width: 25rem;
+    }
+
+    #content-container div[id="q1"] > div:last-child > div, 
+    #content-container div[id="q2"] > div:last-child > div {
+        font-size: 1.5rem;
+    }
+
+    #content-container div[id="q3"] label{
+        font-size: 1.5rem;
+    }
+
+    #content-container div[id="q4"] > textarea {
+        width: 50vw;
+        height: 10rem;
+    }
+
+}

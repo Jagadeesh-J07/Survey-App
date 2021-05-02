@@ -1,0 +1,142 @@
+body {
+    background: aliceblue;
+    font-family: sans-serif;
+}
+
+#flexbox-container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+}
+
+/* Header */
+header {
+    font-weight: bold;
+}
+
+/* Welcome */
+#welcome > div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#welcome div:first-child span {
+    margin-right: 0.2rem;
+}
+
+#welcome div:last-child button, #footer button:last-child {
+    border-radius: 0.5rem;
+    background: #337ab7;
+    border-color: #337ab7;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+/* Content Container */
+#content-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 2;
+}
+
+#content-container div[id^="q"] > div:first-child {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#content-container div[id="q1"] > div:last-child, 
+#content-container div[id="q2"] > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    border: 2px solid #d3d3d3;
+    border-radius: 0.8rem;
+    background-color: #fadadd;
+}
+
+#content-container div[id="q1"] > div:last-child > div, 
+#content-container div[id="q2"] > div:last-child > div {
+    padding: 0.5rem;
+    margin: 0.1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#content-container div[id="q1"] > div:last-child > div[data-selected="false"],
+#content-container div[id="q2"] > div:last-child > div[data-selected="false"] {
+    color: #d2691e;
+}
+
+#content-container div[id="q1"] > div:last-child > div[data-selected="true"], 
+#content-container div[id="q2"] > div:last-child > div[data-selected="true"] {
+    border: 2px solid #d3d3d3;
+    border-radius: 0.8rem;
+    background-color: white;
+    border-style: outset;
+    color: black
+}
+
+#content-container div[id="q3"] > div:last-child  div {
+    margin-bottom: 1.5rem;
+}
+
+#content-container div[id="q3"] > div:last-child  div > span {
+    margin-right: 0.5rem;
+}
+
+#content-container div[id="q4"] > textarea {
+    height: 5rem;
+    resize: none;
+}
+
+#content-container div[id="thank-you"] {
+    text-align: center;
+    font-weight: bold;
+}
+
+#content-container div[id="thank-you"] div {
+    margin-bottom: 0.5rem;
+}
+
+#content-container div[id="thank-you"] div:first-child img {
+    border: 2px solid #C0C0C0;
+}
+
+#content-container div[id="thank-you"] div:nth-child(2) {
+    color: #696969;
+}
+
+#content-container div[id="thank-you"] div:last-child {
+    color: #A9A9A9;
+}
+
+/* Footer */
+#footer button:first-child {
+    border-radius: 0.5rem;
+    background: white;
+    border-color: #C0C0C0;
+    color: #337ab7;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+#footer button:last-child {
+    float: right;
+}
+
+/* Message */
+#message {
+    margin-bottom: 1rem;
+    color: red;
+    font-weight: bold;
+}
